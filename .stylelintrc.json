@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "custom-property-empty-line-before":  ["always",
+      {
+        "first-nested": "except"
+      }
+    ],
+    "unit-allowed-list": ["%", "deg", "px", "rem", "ms", "vh", "vw"]
+  }
+}

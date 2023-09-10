@@ -1,0 +1,21 @@
+:root {
+
+  --font-family-main: "Roboto", "Serif";
+
+  --font-line: 1.5;
+
+  --font-size-m: 18px;
+  --font-m: var(--font-size-m) / var(--font-line) var(--font-family-main);
+
+  --font-size-l: 20px;
+  --font-l: var(--font-size-l) / var(--font-line) var(--font-family-main);
+
+  --color-wild-sand: #f6f4f4;
+  --color-electric-violet: #500CFF;
+  --color-charlotte: #98ecf5;
+  --color-black: #000;
+  --color-white: #fff;
+
+  --primary-color: var(--color-electric-violet);
+  --secondary-color: var(--color-charlotte);
+}

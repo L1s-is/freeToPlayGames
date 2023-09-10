@@ -8,6 +8,14 @@ export default defineConfig({
     open: "/index.html",
     port: 3000,
   },
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "amd",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
   css: {
     preprocessorOptions: {
       scss: {
